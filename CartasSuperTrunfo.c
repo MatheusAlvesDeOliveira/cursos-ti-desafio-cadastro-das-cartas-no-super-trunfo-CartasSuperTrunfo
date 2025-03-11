@@ -65,6 +65,13 @@ int main() {
    scanf("%f" &Pib²);
 
 
+   DensidadePopulacional = (float)(População / AreaKM²);
+   DensidadePopulacional² = (float)(População² / AreaKM²²);
+   PibPerCapita = (float)(População / Pib);
+   PibPerCapita² = (float)(População² / Pib²);
+
+
+
    printf("Carta 1: \n");
 
 
@@ -75,7 +82,8 @@ int main() {
    printf("Nome da Cidade: %s\n", NomeDaCidade);
    printf("Area em Km²: %f\n", AreaKM²);
    printf("Pib: %f\n", Pib);
-
+   printf("Densidade Populacional: %.2f\n /km²", DensidadePopulacional);
+   printf("Pib per Capita: %.2f\n", PibPerCapita);
 
    printf("Carta 2: \n");
 
@@ -87,7 +95,8 @@ int main() {
    printf("Nome da Cidade: %s\n", NomeDaCidade²);
    printf("Area em Km²: %f\n", AreaKM²²);
    printf("Pib: %f\n", Pib²);
-
+   printf("Densidade Populacional: %.2f\n /km²", DensidadePopulacional²);
+   printf("Pib per Capita: %.2f\n", PibPerCapita²);
 
     // Sugestão: Defina variáveis separadas para cada atributo da cidade.
     // Exemplos de atributos: código da cidade, nome, população, área, PIB, número de pontos turísticos.
