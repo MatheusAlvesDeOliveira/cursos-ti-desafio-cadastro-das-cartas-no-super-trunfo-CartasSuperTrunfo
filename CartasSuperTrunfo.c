@@ -7,7 +7,8 @@
 //Teste larissa
 
 int main() {
-   int População, População², NúmeroDePontosTúristicos, NúmeroDePontosTúristicos²;
+   long int População, População²; 
+   int NúmeroDePontosTúristicos, NúmeroDePontosTúristicos²;
    char Estado, Estado²;  
    char CódigoDaCarta[50];
    char CódigoDaCarta²[50];
@@ -17,7 +18,7 @@ int main() {
 
 
    printf("Digite a População: \n");
-   scanf("%d", &População);
+   scanf("%ld", &População);
 
    printf("Digite a quantidade de Pontos Tristicos: \n");
    scanf("%d", &NúmeroDePontosTúristicos);
@@ -44,7 +45,7 @@ int main() {
 
 
    printf("Digite a População: \n");
-   scanf("%d", &População²);
+   scanf("%ld", &População²);
 
    printf("Digite a quantidade de Pontos Tristicos: \n");
    scanf("%d", &NúmeroDePontosTúristicos²);
@@ -75,7 +76,7 @@ int main() {
    printf("Carta 1: \n");
 
 
-   printf("População: %d\n", População);
+   printf("População: %ld\n", População);
    printf("Número De Pontos Túristicos: %d\n", NúmeroDePontosTúristicos);
    printf("Estado: %c\n", Estado);
    printf("Codigo da Carta: %s\n", CódigoDaCarta);
@@ -88,7 +89,7 @@ int main() {
    printf("Carta 2: \n");
 
 
-   printf("População: %d\n", População²);
+   printf("População: %ld\n", População²);
    printf("Número De Pontos Túristicos: %d\n", NúmeroDePontosTúristicos²);
    printf("Estado: %c\n", Estado²);
    printf("Codigo da Carta: %s\n", CódigoDaCarta²);
